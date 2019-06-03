@@ -1,3 +1,7 @@
+## Latest
+
+  * Add build variant with AD RSS library integration with RSS sensor and result visualisation
+
 ## CARLA 0.9.6
 
   * Upgraded to Unreal Engine 4.22
