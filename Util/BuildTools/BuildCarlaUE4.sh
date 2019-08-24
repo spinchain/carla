@@ -142,7 +142,7 @@ fi
 if ${LAUNCH_UE4_EDITOR} ; then
 
   log "Launching UE4Editor..."
-  ${GDB} ${UE4_ROOT}/Engine/Binaries/Linux/UE4Editor "${PWD}/CarlaUE4.uproject" ${RHI}
+  ${GDB} ${UE4_ROOT}UnrealEngine/Engine/Binaries/Linux/UE4Editor "${PWD}/CarlaUE4.uproject" ${RHI}
 
 else
 
