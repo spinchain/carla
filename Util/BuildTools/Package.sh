@@ -94,7 +94,7 @@ if ${DO_CARLA_RELEASE} ; then
   rm -Rf ${RELEASE_BUILD_FOLDER}
   mkdir -p ${RELEASE_BUILD_FOLDER}
 
-  ${UE4_ROOT}UnrealEngine/Engine/Build/BatchFiles/RunUAT.sh BuildCookRun \
+  ${UE4_ROOT}/Engine/Build/BatchFiles/RunUAT.sh BuildCookRun \
       -project="${PWD}/CarlaUE4.uproject" \
       -nocompileeditor -nop4 -cook -stage -archive -package \
       -clientconfig=${PACKAGE_CONFIG} -ue4exe=UE4Editor \
